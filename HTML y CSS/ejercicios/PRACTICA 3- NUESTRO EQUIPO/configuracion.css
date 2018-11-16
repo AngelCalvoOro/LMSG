@@ -1,0 +1,33 @@
+body{
+	background-color: #6ed3cf;
+}
+#cuerpo{
+	color: white;
+	margin: 0 auto;
+	max-width: 900px;
+	align-items: center;
+}
+.desarrolladores{
+	background-color: white;
+	color: black;
+	box-sizing: border-box;
+	float: left;
+	margin: 5px;
+}
+.desarrolladores p , h2{
+	margin-right: 5%;
+	margin-left: 5%; 
+}
+.desarrolladores form{
+	margin-bottom: 5%;
+}
+form button{
+	
+	background-color: #6ed3cf;
+	margin-right: 5%;
+	margin-left: 5%; 
+}
+img{
+	width: 100%;
+	height: 100%;
+}

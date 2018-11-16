@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Práctica 2: Portfolio</title>
+		<style type="text/css">
+			
+		</style>
+	</head>
+	<body>
+		<h1>MIS TRABAJOS</h1>
+		<h2>PORTFOLIO</h2>
+		<p>Reportajes realizados desde el año 2008.</p>
+		<div>
+			<img src="">
+			<h3>Namibia, 2008</h3>
+			<p></p>
+		</div>
+		<div>
+			<img src="">
+			<h3></h3>
+			<p></p>
+		</div>
+		<div>
+			<img src="">
+			<h3></h3>
+			<p></p>
+		</div>
+		<div>
+			<img src="">
+			<h3></h3>
+			<p></p>
+		</div>
+		<div>
+			<img src="">
+			<h3></h3>
+			<p></p>
+		</div>
+		<div>
+			<img src="">
+			<h3></h3>
+			<p></p>
+		</div>
+		<div>
+			<img src="">
+			<h3></h3>
+			<p></p>
+		</div>
+		<div>
+			<img src="">
+			<h3></h3>
+			<p></p>
+		</div>
+		<div>
+			<img src="">
+			<h3></h3>
+			<p></p>
+		</div>
+	</body>
+</html>
