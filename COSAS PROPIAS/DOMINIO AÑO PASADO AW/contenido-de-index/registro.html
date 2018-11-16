@@ -1,0 +1,85 @@
+<html utf="8">
+	<head>
+		<title>formulario</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="../contenidos css/estilo_formulario.css">
+	<script type="text/javascript" src="../script/formulario.js"></script>
+	<body background="../imagenes/fondo_hl_formulario.jpg" text="white" link="orange" vlink="orange" alink="orange">
+		<a href="../index.html">página principal</a>
+		<form action="#" method="get">
+			<fieldset>
+				<legend>Datos propios</legend>
+				<label for="ancla_nombre">Nombre:</label>
+				<input id="ancla_nombre" type="text" name="nombre" placeholder="Ponga su nombre" required>
+				<br>
+				<br>
+				<label for="ancla_Apellidos">Apellidos:</label>
+				<input id="ancla_Apellidos" type="text" name="apellidos" placeholder="Ponga sus apellidos" required>
+				<br>
+				<br>
+				<label for="ancla_DNI">DNI:</label>
+				<input id="ancla_DNI" size="9" type="text" name="DNI" placeholder="Ponga su DNI" required>
+				<br>
+				<br>
+				<label for="ancla_Email">Email:</label>
+				<input id="ancla_Email" size="25" type="email" name="email" placeholder="ponga su email para contactarnos" required>
+				<p>Indique su edad:</p>
+				<input class="edad" name="edad" type="radio" value="18" required>18</input>
+				<br>
+				<input class="edad" name="edad" type="radio" value="19-20" required>19-20</input>
+				<br>
+				<input class="edad" name="edad" type="radio" value="21-30" required>21-30</input>
+				<br>
+				<input class="edad" name="edad" type="radio" value="31-80" required>31-80</input>
+				<br>
+			</fieldset>
+			<fieldset>
+				<legend>Opinión</legend>
+				<p>¿Le a gustado lo que a visto?</p>
+				<input  type="checkbox" class="opinion_pagina" id="valoracion" onclick="valoracion_oculta(this)">SI</input>
+				<input  type="checkbox" class="opinion_pagina" id="valoracion">NO
+				<div id="div_oculto">
+					<p>Indique la pagina o paginas que más le han gustado.</p>
+					<input class="paginas_like"  type="checkbox" value="noticia" required>valve
+					<br>
+					<input class="paginas_like" type="checkbox" value="informacion variada" required>Warhammer Dawn Of War III
+					<br>
+					<input class="paginas_like" type="checkbox" value="algo mas" required>Un poco todo
+					<br>
+					<br>
+					<p>¿Que le gusto de lo que a visto?</p>
+					<textarea name="opinion_gusta" cols="50" rows="10" placeholder="Indique que le gusto mas"></textarea>
+				</div>
+				<br>
+				<br>
+				<p>¿si se actualiza la informacion volveria a este dominio?</p>
+				<select name="volverias?" required>
+					<option selected>----escoga una opción----</option>
+					<option>SI</option>
+					<option>NO</option>
+				</select>
+				<br>
+				<p>¿Que puntuación le daria a lo que ha visto?</p>
+				<input name="puntuación" type="radio" value="1" required>1
+				<input name="puntuación" type="radio" value="2" required>2
+				<input name="puntuación" type="radio" value="3" required>3
+				<input name="puntuación" type="radio" value="4" required>4
+				<input name="puntuación" type="radio" value="5" required>5
+				<input name="puntuación" type="radio" value="6" required>6
+				<input name="puntuación" type="radio" value="7" required>7
+				<input name="puntuación" type="radio" value="8" required>8
+				<input name="puntuación" type="radio" value="9" required>9
+				<input name="puntuación" type="radio" value="10" required>10
+				<br>
+				<br>
+				<p>¿Que cambios haria para mejorar la pagina?</p>
+				<textarea name="mejoras" cols="50" rows="7" placeholder="comente para ayudarnos a ser mejores"></textarea>
+			</fieldset>
+			<br>
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Borrar">
+			<br>
+			<br>
+		</form>
+	</body>
+</html>

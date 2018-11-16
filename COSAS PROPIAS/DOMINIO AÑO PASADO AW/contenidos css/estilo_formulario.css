@@ -1,0 +1,25 @@
+body{
+    background-size: 100%;
+}
+a{
+    position: fixed;
+    float: left;
+    font-size: 25px;
+    color: orange;
+}
+form{
+    margin-left: 40%;
+}
+fieldset{
+    width: 33%;
+}
+.edad{
+    margin-left: 110px;
+}
+.paginas_like{
+    margin-left: 35px;
+}
+#div_oculto{
+    display: none;
+}
+
