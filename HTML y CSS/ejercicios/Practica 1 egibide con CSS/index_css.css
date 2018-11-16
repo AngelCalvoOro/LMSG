@@ -1,0 +1,40 @@
+body{
+	margin: 5%  15% 5% 15%;
+	padding-left: 3%;
+	color: white;
+	background-color: black;
+	font-size: 15px;
+	border: 1px solid orange;
+}
+
+h1{
+	text-align: center;
+	color: purple;
+
+}
+#seccion_indice{
+	padding-left: 3%;
+	margin-left: 5%;
+}
+.div_centros img{
+	width: 200px;
+	height: 300px;
+}
+.div_centros{
+	float: left;
+	margin: 1%;
+
+}
+h3{
+	margin-left: 30px;
+}
+hr{
+	clear: both;
+}
+
+table{
+	text-align: center;
+}
+#tabla_GM{
+	margin-bottom: 3%;
+}
