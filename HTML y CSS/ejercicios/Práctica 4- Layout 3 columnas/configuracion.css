@@ -1,0 +1,25 @@
+body{
+	background-color:gray;
+}
+#cuerpo{
+	margin: 0 auto;
+	max-width: 980px;
+}
+#cabecera{
+	padding:20px;
+	text-align:center;
+	background-color:#3fb0ac;
+}
+#cabecera:after{
+	content:" ";
+}
+#menus{
+	background-color:#3fb0ac;
+	color:white;
+}
+#cuerpo_contenido{
+	background-color:white;
+}
+#pie_pagina{
+	background-color: #173e43;
+}
