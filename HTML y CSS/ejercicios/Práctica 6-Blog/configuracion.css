@@ -1,0 +1,27 @@
+body{
+	margin: 0 20px;
+	background-color: #f1f1f1;
+	font-family: Arial;
+}
+header{
+	text-align: center;
+	text-align: 40px;
+	padding: 30px;
+}
+main{
+	max-width: 75%;
+	float: left;
+}
+aside{
+	max-width: 25%;
+	float: right;
+}
+.bloque_imagen{
+	background-color: #aaa;
+	padding: 60px;
+}
+footer{
+	clear: both;
+	margin-top: 20px;
+	padding: 0 20px;
+}
