@@ -1,27 +1,33 @@
 body{
 	margin: 0 20px;
-	background-color: #f1f1f1;
+	background-color:red;
 	font-family: Arial;
 }
 header{
+	background-color: white;
 	text-align: center;
 	text-align: 40px;
 	padding: 30px;
 }
 main{
+	background-color: white;
 	max-width: 75%;
 	float: left;
+	margin-bottom: 20px;
 }
 aside{
+	background-color: white;
 	max-width: 25%;
 	float: right;
 }
 .bloque_imagen{
 	background-color: #aaa;
-	padding: 60px;
+	padding: 10px 60px 200px 20px;
 }
 footer{
+	text-align: center;
+	background-color: #ddd;
 	clear: both;
 	margin-top: 20px;
-	padding: 0 20px;
+	padding: 20px;
 }
