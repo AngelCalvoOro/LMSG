@@ -1,6 +1,9 @@
+*{
+	box-sizing: border-box;
+}
 body{
-	margin: 0 20px;
-	background-color:red;
+	margin:20px;
+	background-color:#f1f1f1;
 	font-family: Arial;
 }
 header{
@@ -8,26 +11,47 @@ header{
 	text-align: center;
 	text-align: 40px;
 	padding: 30px;
+	margin-bottom:20px;
 }
+
 main{
-	background-color: white;
-	max-width: 75%;
+	background-color: #f1f1f1;
+	width: 75%;
 	float: left;
-	margin-bottom: 20px;
+	padding: 0px 0px 15px 0px;
+}
+main div{
+	background-color:white;
+	padding:15px;
+	margin-bottom:15px;
 }
 aside{
-	background-color: white;
-	max-width: 25%;
-	float: right;
+	background-color: #f1f1f1;
+	float:left;
+	padding: 0px 0px 15px 15px;
+	width: 25%;
+	
+}
+aside div{
+	background-color:white;
+	padding:15px;
+	margin-bottom:15px;
 }
 .bloque_imagen{
 	background-color: #aaa;
 	padding: 10px 60px 200px 20px;
 }
+.bloque_aside1{
+	background-color: #aaa;
+	padding: 10px 50px 100px 10px;
+}
+.bloque_aside2{
+	background-color: #aaa;
+	padding:20px;
+}
 footer{
 	text-align: center;
 	background-color: #ddd;
 	clear: both;
-	margin-top: 20px;
 	padding: 20px;
 }
