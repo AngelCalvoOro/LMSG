@@ -1,0 +1,106 @@
+/*-------------------------------- 
+seccion general
+*/
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:20px;
+	background-color:black;
+	font-family: Arial;
+}
+
+/*-------------------------------- 
+seccion cabecera
+*/
+header{
+	background-color: grey;
+	text-align: center;
+	text-align: 40px;
+	padding: 30px;
+	margin-bottom:20px;
+}
+/*-------------------------------- 
+seccion menu enlaces
+*/
+nav{
+	text-align: center;
+	background-color: grey;
+}
+nav li:hover{
+	background-color:white;
+}
+nav ul li {
+	padding: 20px;
+	text-align: 15px;
+	text-align: center;
+	display: inline-block;
+}
+nav ul li a {
+	text-decoration:none;
+	color: white;
+	font-family: sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+}
+.menu1{
+	float: left;
+}
+.menu2{
+}
+.menu3{
+	float: right;
+}
+/*-------------------------------- 
+seccion cuerpo main
+*/
+main{
+	background-color: black;
+	width: 75%;
+	float: left;
+	padding: 0px 0px 15px 0px;
+}
+main div{
+	background-color:white;
+	padding:15px;
+	margin-bottom:15px;
+}
+/*-------------------------------- 
+seccion cuerpo aside
+*/
+aside{
+	background-color: black;
+	float:left;
+	padding: 0px 0px 15px 15px;
+	width: 25%;
+	
+}
+aside div{
+	background-color:white;
+	padding:15px;
+	margin-bottom:15px;
+}
+/*-------------------------------- 
+seccion bloques imagen
+*/
+.bloque_imagen{
+	background-color: #aaa;
+	padding: 10px 60px 200px 20px;
+}
+.bloque_aside1{
+	background-color: #aaa;
+	padding: 10px 50px 100px 10px;
+}
+.bloque_aside2{
+	background-color: #aaa;
+	padding:20px;
+}
+/*-------------------------------- 
+seccion  pie de pagina
+*/
+footer{
+	text-align: center;
+	background-color: #ddd;
+	clear: both;
+	padding: 20px;
+}
