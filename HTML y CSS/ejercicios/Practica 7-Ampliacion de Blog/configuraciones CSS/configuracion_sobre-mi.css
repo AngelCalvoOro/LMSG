@@ -48,7 +48,6 @@ nav ul li a {
 	font-size: 25px;
 	font-weight: 500;
 }
-
 .menu1{
 	float: left;
 }
@@ -61,36 +60,24 @@ nav ul li a {
 seccion cuerpo main
 */
 main{
-	border:5px orange solid;
-	background-color: white;
 	width: 75%;
 	float: left;
 	padding: 0px 0px 15px 0px;
-	margin-bottom:20px;
 }
-main:after { 
-    content: " ";
-    background-color: yellow;
-    color: red;
-    font-weight: bold;
-}
-main h2{
-	text-align: center;
-}
-/*-------------------------------- 
-seccion formulario
-*/
-form{
-	margin-left: 5%;
+main div{
+	border:5px orange solid;
+	background-color:white;
+	padding:15px;
+	margin-bottom:15px;
 }
 /*-------------------------------- 
 seccion cuerpo aside
 */
 aside{
-	background-color: grey;
 	float:left;
 	padding: 0px 0px 15px 15px;
 	width: 25%;
+	
 }
 aside div{
 	border:5px orange solid;
@@ -99,13 +86,27 @@ aside div{
 	margin-bottom:15px;
 }
 /*-------------------------------- 
+seccion bloques imagen
+*/
+.bloque_imagen{
+	background-color: #aaa;
+	padding: 10px 60px 200px 20px;
+}
+.bloque_aside1{
+	background-color: #aaa;
+	padding: 10px 50px 100px 10px;
+}
+.bloque_aside2{
+	background-color: #aaa;
+	padding:20px;
+}
+/*-------------------------------- 
 seccion  pie de pagina
 */
 footer{
 	border:5px black solid;
-	color: black;
 	text-align: center;
-	background-color:#4ea9a8;
+	background-color: #ddd;
 	clear: both;
 	padding: 20px;
 }
