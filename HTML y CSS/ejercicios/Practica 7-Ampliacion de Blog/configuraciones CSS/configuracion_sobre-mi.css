@@ -71,6 +71,63 @@ main div{
 	margin-bottom:15px;
 }
 /*-------------------------------- 
+seccion  sagas
+*/
+#CNC{
+	margin: 0 auto;
+	width: 250px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+h6{
+	margin: 0px;
+}
+#AOE{
+	display: inline-grid;
+	overflow: auto;
+	width: 250px;
+	text-align: center;
+}
+#DOW{
+	float: right;
+	overflow: auto;
+	width: 250px;
+	text-align: center;
+}
+/*-------------------------------- 
+seccion  imagen
+*/
+.AOE-imagen{
+	border: 1px black solid;
+	width: 150px;
+	height: 60px;
+	margin-top: 5px;
+}
+.sagas{
+	width: 200px;
+	height: 150px;
+}
+.horus-lista{
+	width: 50%;
+	height: 150px;
+	float: right;
+}
+
+/*-------------------------------- 
+seccion warhammer
+*/
+.parrafo-horus{
+	display: inline-block;
+    width: 50%;
+}
+table{
+	width:100%;
+}
+table, th, td {
+	text-align: center;
+ 	border: 1px solid black;
+}
+/*-------------------------------- 
 seccion cuerpo aside
 */
 aside{
@@ -84,21 +141,6 @@ aside div{
 	background-color:white;
 	padding:15px;
 	margin-bottom:15px;
-}
-/*-------------------------------- 
-seccion bloques imagen
-*/
-.bloque_imagen{
-	background-color: #aaa;
-	padding: 10px 60px 200px 20px;
-}
-.bloque_aside1{
-	background-color: #aaa;
-	padding: 10px 50px 100px 10px;
-}
-.bloque_aside2{
-	background-color: #aaa;
-	padding:20px;
 }
 /*-------------------------------- 
 seccion  pie de pagina
