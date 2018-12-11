@@ -1,0 +1,45 @@
+body{
+	background-color: #7FB0BC;
+}
+h1{
+	text-align: center;
+}
+div{
+	
+	margin: 0 auto;
+	max-width: 900px;
+	background-image: url(https://media.fshoq.com/images/289/man-in-the-wild-among-nature-river-and-mountains-289-small.jpg);
+}
+form{
+	opacity: 0.85;
+	padding: 10px;
+	margin-left: 50%;
+	background-color: white;
+	max-width: 50%;
+}
+select, input[type="text"],input[type="email"],input[type="password"]{
+	padding: 8px 0 8px 0 ;
+	width: 100%;
+}
+select:hover, input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover{
+	border-color: black;
+	background-color: #ddd;
+}
+.informacion{
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+}
+input[type="reset"]{
+	color: white;
+	padding: 8px;
+	background-color: red;
+	width: 45%;
+}
+input[type="submit"]{
+	width:45%;
+	color: white;
+	padding: 8px;
+	background-color: green;
+}
