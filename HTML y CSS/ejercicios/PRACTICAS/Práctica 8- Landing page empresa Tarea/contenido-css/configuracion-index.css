@@ -1,0 +1,54 @@
+/*-------------------------------- 
+apartado general
+*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial;
+}
+/*-------------------------------- 
+apartado cabecera
+*/
+header{
+	background-color: grey;
+	position: fixed;
+	width: 100%;
+	padding-right: 20%;
+	padding-left: 20%;
+}
+header img{
+	margin:5px;
+	width: 50px;
+}
+header ul{
+	float: right;
+}
+header li:hover{
+	background-color:white;
+}
+header ul li {
+	padding: 20px;
+	display: inline-block;
+}
+header ul li a {
+	text-decoration:none;
+	color: black;
+	font-size: 15px;
+}
+/*-------------------------------- 
+apartado secciones
+*/
+.seccion_azul{
+	padding-top: 5em;/* puede que tenga que quitarlo*/
+	background-color: #03A9F4;
+	padding-right: 20%;
+	padding-left: 20%;
+}
+.articulo-1 h1+p{
+	margin-bottom: 50px;
+}
+
+/*PROBAR EL SELECTOR :before en el header*/
