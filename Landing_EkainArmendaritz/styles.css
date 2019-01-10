@@ -1,0 +1,318 @@
+/*VARIABLES*/
+:root 
+	{
+		--verde:green;
+		--naranja:orange;
+		--blanco:white;
+		--negro:black;
+		--azul:lightblue;
+		--rojo:red;
+		--marron:brown;
+		--morado:purple;
+		--amarillo:yellow;
+		--borde_verde:2px solid green;
+		--borde_naraja:2px solid orange;
+		--nombre_empresa:100px;
+		--titulo_principal:55px;
+		--titulo_secundario:45px;
+		--titulo_terciario:35px;
+		--titulo_cuartario:25px;
+		--texto:25px;
+	}
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Prompt');
+
+section
+	{
+		background-attachment: fixed;
+	}
+
+body
+	{
+		margin:0;
+	}
+
+article
+	{
+		margin:0 auto;
+		max-width: 1000px;
+		padding:50px;
+	}
+
+main
+	{
+		background-color:white;
+	}
+
+h1
+	{
+		text-align:center;
+		font-size:var(--nombre_empresa);
+		color:#f21d1d;
+		text-shadow: 0px 10px grey;
+		font-family:'Lobster';
+	}
+
+h2
+	{
+		font-size:var(--titulo_principal);
+		color:#26d24c;
+		font-family:'Prompt';
+	}
+
+h3
+	{
+		font-size:var(--titulo_secundario);
+		color:#7382D8;
+		margin-top:0;
+		margin-bottom:10px;
+	}
+
+h4
+	{
+		font-size:var(--titulo_terciario);
+		color:var(--marron);
+		padding-bottom:0;
+	}
+
+h5
+	{
+		font-size:var(--titulo_cuartario);
+		color:black;
+		margin-top:0;
+		margin-bottom:10px;
+	}
+
+p,span,label,button,li
+	{
+		font-size:var(--texto);
+	}
+
+p
+	{
+		margin-top:0;
+		margin-bottom:50px;
+		color:black;
+	}
+
+span
+	{
+		color:var(--morado);	
+	}
+
+section
+	{
+		border:var(--borde_verde);
+	}
+
+div
+	{
+		text-align:center;
+	}
+
+textarea
+	{
+		height:200px;
+		width:400px;
+	}
+
+button
+	{
+		border-radius:50px;
+	}
+
+button:hover
+	{
+			color:var(--blanco);
+		background-color:var(--negro);
+		cursor:pointer;
+	}		
+
+img
+	{
+		height:200px;
+		width:400px;
+	}
+
+		
+/*Seccion1*/
+
+.seccion1
+	{
+		background-image: url("http://www.ancientpages.com/wp-content/uploads/2017/05/dragonmyth.jpg");
+  		background-size:100% 100%;
+  		background-repeat:none;
+	}
+
+.articulo1:after, .seccion1:after
+	{
+		content:" ";
+		display:block;
+		clear:both;
+	}
+
+.menu-horizontal
+	{
+		background-color:#333;
+		clear: both;
+		float: left;
+		margin:0 auto;
+		list-style: none;
+		padding:0;
+		top:10px;
+		right:10px;
+		position:fixed;
+	}
+							
+.apartado-menu
+	{
+		padding:20px;
+		marker:none;
+		display:inline-block;
+	}
+					
+.apartado-menu a
+	{
+		text-decoration:none;
+		color:var(--azul);
+	}		
+
+.apartado-menu:hover
+	{
+		background-color: #5a5a5a;
+		cursor:pointer;
+	}
+
+.apartado-menu a:visited
+	 {
+	 	color:var(--azul);
+	 }
+				
+.apartado-menu a:hover
+	{
+		color:var(--blanco);
+	}
+
+/*Seccion2*/
+
+.seccion2
+	{
+		background-image: url("https://www.elguardian.cr/wp-content/uploads/2018/10/internet-2.jpeg");
+  		background-size:100% 100%;
+  		background-repeat:none;
+	}
+
+.articulo2:after, .main2:after, .div2:after, .boder_box2:after
+	{
+		content:" ";
+		display:block;
+		clear:both;
+	}
+
+.div2
+	{
+		background-color:white;
+		opacity:0.95;
+		padding:20px;
+		padding-right:50px;
+	}
+
+/*Seccion3*/
+
+.seccion3
+	{
+		background-image: url("http://www.pamole.com/.cm4all/iproc.php/Logos/Nuestros%20servicios%202.jpg/downsize_1280_0/Nuestros%20servicios%202.jpg");
+  		background-size:100% 100%;
+  		background-repeat:none;
+	}
+
+.main3
+	{
+		opacity:0.95;
+		padding:20px;
+	}
+
+/*Seccion4*/
+
+.seccion4
+	{
+		background-image: url("https://i.imgur.com/oNr70aY.png");
+  		background-size:100% 100%;
+  		background-repeat:none;
+	}
+
+.main3
+	{
+		opacity:0.95;
+		padding:20px;
+	}
+
+/*Seccion4*/
+
+.main4
+	{
+		opacity:0.95;
+		padding:20px;
+	}
+
+/*Seccion5*/
+.seccion5
+	{
+		background-image: url("https://elandroidelibre.elespanol.com/wp-content/uploads/2016/06/recuperar-contactos-perdidos.jpg");
+  		background-size:100% 100%;
+  		background-repeat:none;
+	}
+
+.main5
+	{
+		opacity:0.95;
+		padding:20px;
+	}
+
+/*General*/	
+	
+.border-box
+	{
+		box-sizing:border-box;
+	}
+
+		
+	{
+		content:" ";
+		display:block;
+		clear:both;
+	}
+
+.float_izquierda
+	{
+		float:left;
+	}
+
+.float_derecha
+	{
+		float:right;
+	}
+
+.ancho 
+	{
+		width:75%;
+		padding:10px;
+	}
+
+.fino
+	{
+		width:25%;
+	}
+
+.iguales
+	{
+		width:33.33%;
+		padding:10px;
+	}
+
+.iguales img
+	{
+		width:200px;
+		height:250px;
+	}

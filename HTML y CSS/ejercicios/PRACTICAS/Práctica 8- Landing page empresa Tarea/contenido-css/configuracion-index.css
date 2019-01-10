@@ -10,8 +10,8 @@ body{
 	font-family: Arial;
 }
 /*-------------------------------- 
-apartado cabecera
-*/
+apartado menu
+
 header{
 	background-color: grey;
 	position: fixed;
@@ -26,14 +26,29 @@ header img{
 header ul{
 	float: right;
 }
-header li:hover{
+*/
+.seccion_menu{
+	background-color: grey;
+	width: 100%;
+}
+.conf_menu{
+    margin: 0 auto;
+	max-width: 60%;
+}
+.conf_menu img{
+	margin:5px;
+	width: 50px;
+}
+.conf_menu ul{
+}
+.conf_menu li:hover{
 	background-color:white;
 }
-header ul li {
+.conf_menu ul li {
 	padding: 20px;
 	display: inline-block;
 }
-header ul li a {
+.conf_menu ul li a {
 	text-decoration:none;
 	color: black;
 	font-size: 15px;
