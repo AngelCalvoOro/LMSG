@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>pruebas con flexbox y mas</title>
+		<style type="text/css">
+			/*cofiguracion general*/
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			h1{
+				text-align: center;
+			}
+			hr{
+				height: 34px;
+				background-color: red;
+				margin: 15px 0;
+			}
+			/*cofiguracion de contenedor-1*/
+			.container {
+				padding: 2%;
+				display: flex;
+				background-color: #00c7ff;
+			}
+			.item{
+				padding: 3%;
+				font-size: 50px;
+				color: white;
+				background-color: #0098ff;
+				border: 5px solid white;
+			}
+			/*cofiguracion de contenedor-2*/
+			.container2{
+				
+				align-items: flex-start;
+			}
+			.item3{
+				align-self: flex-end;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>ejemplo con "display:flex"</h1>
+		<div class="container">
+			<div class="item">1</div>
+			<div class="item">2</div>
+		 	<div class="item">3</div>
+			<div class="item">4</div>
+			<div class="item">5</div>
+		</div>
+		<hr>
+		<h1>ejemplo con "display:flex"</h1>
+		<div class="container2">
+			<div class="item">1</div>
+			<div class="item">2</div>
+		 	<div class="item" class="item3">3</div>
+			<div class="item">4</div>
+			<div class="item">5</div>
+		</div>
+	</body>
+</html>
