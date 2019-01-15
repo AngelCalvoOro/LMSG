@@ -147,6 +147,60 @@
 	padding: 40px;
 	flex-grow: 10;
 }
+/*cofiguracion general*/
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	text-align: center;
+}
+hr{
+	height: 34px;
+	background-color: red;
+	margin: 15px 0;
+}
+.item{
+	padding: 3%;
+	font-size: 20px;
+	color: white;
+	background-color: #0098ff;
+	border: 5px solid white;
+}
+/*cofiguracion de contenedor-1*/
+.container {
+	padding: 2%;
+	display: flex;
+	background-color: #00c7ff;
+}
+.item1{
+	flex-basis: 50px;
+}
+.container .item1:nth-of-type(1){
+	flex-basis: 120px;
+}
+.container .item1:nth-of-type(2){
+	flex-basis: 220px;
+}
+/*cofiguracion de contenedor-2*/
+.container .item2{
+	flex-shrink: 1;
+	flex-basis: 100px;
+}
+.container .item2-2{
+	flex-shrink: 2;
+	flex-basis: 100px;
+}
+.container .item2-3{
+	flex-shrink: 1;
+	flex-basis: 100px;
+}
+.container .container .item2-3:nth-of-type(1){
+	flex-shrink: 3;
+}
+.container .container .item2-3:nth-of-type(2){
+	flex-shrink: 1;
+}
 
 </style>
 </head>
@@ -460,6 +514,36 @@
 			<div class="caja3">
 				5
 			</div>
+		</div>
+		<h1>ejemplo con "flex-basis"</h1>
+		<div class="container">
+			<div class="item item1">120px</div>
+			<div class="item item1">220px</div>
+		 	<div class="item item1">50px</div>
+			<div class="item item1">50px</div>
+			<div class="item item1">50px</div>
+		</div>
+		<h1>ejemplo con "flex-shrink"</h1>
+		<div class="container">
+			<div class="item item2">1</div>
+			<div class="item item2">2</div>
+		 	<div class="item item2">3</div>
+			<div class="item item2">4</div>
+			<div class="item item2">5</div>
+		</div>
+		<div class="container">
+			<div class="item item2-2">1</div>
+			<div class="item item2-2">2</div>
+		 	<div class="item item2-2">3</div>
+			<div class="item item2-2">4</div>
+			<div class="item item2-2">5</div>
+		</div>
+		<div class="container">
+			<div class="item item2-3">1</div>
+			<div class="item item2-3">2</div>
+		 	<div class="item item2-3">3</div>
+			<div class="item item2-3">4</div>
+			<div class="item item2-3">5</div>
 		</div>
 </body>
 
