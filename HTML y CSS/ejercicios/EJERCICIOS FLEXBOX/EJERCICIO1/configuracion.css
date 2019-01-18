@@ -1,0 +1,20 @@
+.contenedor{
+	display:flex;
+	/*justify-content:space-between;*/
+}
+.contenedor{
+	justify-content:flex-start;
+}
+.menu{
+	justify-content:center;
+}
+.idiomas{
+	justify-content:flex-end;
+}
+li{
+	display: inline-block;
+
+}
+a{
+	text-decoration: none;
+}
