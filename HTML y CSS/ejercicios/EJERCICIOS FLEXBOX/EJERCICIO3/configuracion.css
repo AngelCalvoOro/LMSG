@@ -1,0 +1,10 @@
+body{
+	background-color: #eae8e8;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+}
+div{
+	background-color: #c3c3c3;
+}
+/*sin terminar*/
