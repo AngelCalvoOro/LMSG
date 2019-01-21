@@ -1,20 +1,22 @@
-.contenedor{
-	display:flex;
-	/*justify-content:space-between;*/
-}
-.contenedor{
-	justify-content:flex-start;
-}
-.menu{
-	justify-content:center;
-}
-.idiomas{
-	justify-content:flex-end;
-}
+/*cofiguracion general*/
 li{
 	display: inline-block;
-
 }
 a{
 	text-decoration: none;
+}
+/*cofiguracion contenedor*/
+.contenedor{
+	display:flex;
+	justify-content:space-between;
+}
+/*cofiguracion menu*/
+.menu li a{
+	color: gray;
+}
+/*configuracion lenguaje*/
+.idiomas li a{
+	background-color: gray;
+	color: white;
+	padding: 10px;
 }
