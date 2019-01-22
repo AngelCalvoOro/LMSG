@@ -11,8 +11,12 @@ a{
 	justify-content:space-between;
 }
 /*cofiguracion menu*/
+.menu ul{
+	padding: 0;
+}
 .menu li a{
 	color: gray;
+	margin: auto 20px;
 }
 /*configuracion lenguaje*/
 .idiomas li a{

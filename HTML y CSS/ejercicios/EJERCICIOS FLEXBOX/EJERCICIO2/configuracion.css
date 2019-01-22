@@ -1,4 +1,5 @@
 div{
+	width: 100vh;
 	background-color: #c3bcbc;
 	display: flex;
 	justify-content: space-between;
