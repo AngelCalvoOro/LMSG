@@ -8,7 +8,7 @@ header,footer{
 	background-color: #f1f1f1;
 }
 main{
-
+	height: 75vh;
 	display: flex;
 }
 article{
@@ -28,4 +28,4 @@ aside{
 	flex-grow: 1;
 	background-color: #c3c3c3;
 }
-/*SIN TERMINAR*/
+/*sin saber como hacer que se ajuste  la pantalla todo el contenido automaticamente*/
