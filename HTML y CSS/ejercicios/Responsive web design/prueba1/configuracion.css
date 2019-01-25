@@ -1,0 +1,46 @@
+
+h1{
+	font-size: 100px;
+}
+
+@media only screen and (max-width: 500px){
+	.pc ,.tablet{
+		display: none;
+	}
+}
+@media only screen and (min-width: 501px) and (max-width: 800px){
+	.pc ,.movil{
+		display: none;
+	}
+}
+@media only screen and (min-width: 801px){
+	.movil ,.tablet{
+		display: none;
+	}
+}
+/*----------------------------------------------------------------*/
+
+/*orange de 0px a 400px*/
+@media only screen and (max-width: 400px){
+	.dimensiones_color{
+		color: orange;
+	}
+}
+/*blue de 300px a 600px (se solapa al orange)*/
+@media only screen and (min-width: 300px) and (max-width: 600px){
+	.dimensiones_color{
+		color: blue;
+	}
+}
+/*red desde 601px */
+@media only screen and (min-width: 601px){
+	.dimensiones_color{
+		color: red;
+	}
+}
+/*green desde 960px*/
+@media only screen and (min-width: 960px){
+	.dimensiones_color{
+		color: green;
+	}
+}
