@@ -1,0 +1,55 @@
+/*cofiguraciones generales*/
+a{
+	text-decoration: none;
+	color: black;
+}
+li{
+	display: inline-table;
+}
+/*configuracion de body*/
+body{
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #93d9e9;
+}
+/*cofiguracion de div*/
+
+
+/*
+justify-content: space-between;
+    max-width: 480px;
+    flex-direction: column;
+    display: flex;
+    min-height: 480px;
+    background-color: white;
+*/
+.contenedor{
+	display: flex;
+	margin: 0 auto;
+}
+.caja1,.caja2,.caja3{
+	margin: 0 10px;
+	height: 480px;
+	background-color: white;
+}
+
+/*cofiguracion de div-cabecera*/
+header{
+
+	text-align: center;
+	background-color: salmon;
+	font-weight: bold;
+}
+/*cofiguracion de div-main*/
+/*cofiguracion de div-footer*/
+footer{
+	text-align: center;
+}
+footer a{
+	background-color: #dcdcdc;
+}
+
+/*MUCHOS PROBLEMAS DE CONFIGURACION*/
