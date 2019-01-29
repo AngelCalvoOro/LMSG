@@ -6,6 +6,10 @@ a{
 li{
 	display: inline-table;
 }
+
+p{
+	border-bottom: 1px solid #eaeaea;
+}
 /*configuracion de body*/
 body{
 	margin: 0;
@@ -16,40 +20,45 @@ body{
 	background-color: #93d9e9;
 }
 /*cofiguracion de div*/
-
-
-/*
-justify-content: space-between;
-    max-width: 480px;
-    flex-direction: column;
-    display: flex;
-    min-height: 480px;
-    background-color: white;
-*/
 .contenedor{
 	display: flex;
-	margin: 0 auto;
 }
 .caja1,.caja2,.caja3{
+	box-shadow:5px 5px 5px grey; 
+	display: flex;
+	flex-direction: column;
 	margin: 0 10px;
 	height: 480px;
 	background-color: white;
+	border-radius: 15px;
 }
 
 /*cofiguracion de div-cabecera*/
 header{
-
+	padding: 24px 50px;
 	text-align: center;
 	background-color: salmon;
 	font-weight: bold;
+	border-radius: 15px 15px 0px 0px;
+}
+h1{
+	margin: 0;
 }
 /*cofiguracion de div-main*/
+main{
+	padding: 15px 15px 0px 15px;
+	text-align: center;
+	height: 100%;
+}
 /*cofiguracion de div-footer*/
 footer{
 	text-align: center;
+	padding-bottom: 20px;
 }
 footer a{
-	background-color: #dcdcdc;
+	border-radius: 5px;
+	padding: 10px 25px;
+	background-color: #efefef;
 }
 
 /*MUCHOS PROBLEMAS DE CONFIGURACION*/
