@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	max-width: 1000px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+/*configuracion header*/
+header{
+	background-color: #fa8172;
+	color: white;
+	text-align: center;
+}
+/*configuracion menu*/
+nav{
+	background-color: green;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+li{
+	display: inline-table;
+}
