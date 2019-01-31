@@ -7,6 +7,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	height: 100%;
+	margin: 0 auto;
 }
 /*configuracion header*/
 header{
@@ -42,11 +43,32 @@ aside{
 	flex-direction: column;
 	max-width: 30%;
 }
+aside img{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+aside p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 /*cofiguracion article*/
 article{
 	display: flex;
 	flex-direction: column;
 	max-width: 70%;
+	height: 100%;
 }
-
+div{
+	border-bottom: 3px black solid;
+	margin: 15px;
+}
+div p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
 /*cofiguracion footer*/
+footer{
+	background-color: #cccccc;
+	text-align: center;
+	padding: 15px;
+}
