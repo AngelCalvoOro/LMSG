@@ -16,12 +16,37 @@ header{
 }
 /*configuracion menu*/
 nav{
-	background-color: green;
+	background-color: #00bc86;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 10px;
 }
 a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 li{
+	padding:11px;
 	display: inline-table;
 }
+/*cofiguracion main*/
+main{
+ display: flex;
+}
+/*cofiguracion aside*/
+aside{
+	padding: 25px 15px;
+	background-color: #eae8e8;
+	display: flex;
+	flex-direction: column;
+	max-width: 30%;
+}
+/*cofiguracion article*/
+article{
+	display: flex;
+	flex-direction: column;
+	max-width: 70%;
+}
+
+/*cofiguracion footer*/
