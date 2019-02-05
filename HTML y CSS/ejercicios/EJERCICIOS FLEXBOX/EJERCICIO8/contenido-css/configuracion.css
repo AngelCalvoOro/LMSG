@@ -1,0 +1,32 @@
+/*---apartado general---*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial;
+	display: flex;
+	flex-direction: column;
+}
+article{
+	max-width: 60%;
+	display: flex;
+}
+
+/*---apartado cuerpo---*/
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*---apartado menu---*/
+.seccion_menu{
+	display: flex;
+	justify-content: center;
+	background-color: grey;
+}
+.conf_menu img{
+	margin:5px;
+	width: 5%;
+}
