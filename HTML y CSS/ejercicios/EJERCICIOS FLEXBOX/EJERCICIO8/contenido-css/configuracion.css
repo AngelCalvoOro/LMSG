@@ -1,32 +1,180 @@
-/*---apartado general---*/
+/*---seccion general---*/
 *{
 	margin: 0;
 	padding: 0;
 }
-body{
-	font-family: Arial;
-	display: flex;
-	flex-direction: column;
-}
-article{
-	max-width: 60%;
-	display: flex;
-}
-
-/*---apartado cuerpo---*/
-body{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-/*---apartado menu---*/
-.seccion_menu{
+.seccion_azul,.seccion_blanco{
+	padding-top: 1%;
+	padding-bottom: 1%;
 	display: flex;
 	justify-content: center;
-	background-color: grey;
 }
-.conf_menu img{
-	margin:5px;
-	width: 5%;
+article{
+	width: 60%;
+}
+/*---seccion header---*/
+section.inicio-fin{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	display: flex;
+	justify-content: center;
+	background-color: black;
+}
+section.inicio-fin article{
+	display: flex;
+	justify-content: space-between;
+}
+section.inicio-fin article ul{
+	display: flex;
+	align-items: center;
+}
+section.inicio-fin article ul li {
+	display: inline-block;
+}
+section.inicio-fin article ul li a {
+	text-decoration:none;
+	color: #009688;
+	font-size: 160%;
+	padding: 11px;
+}
+section.inicio-fin article li a:hover{
+	background-color:white;
+}
+section.inicio-fin article img{
+	height: 100%;
+	width: 10%;
+}
+
+/*---seccion azul 1---*/
+.seccion_azul{
+	background-color: #03A9F4;
+}
+.articulo-1 h1{
+	background-color: white;
+	display: -webkit-inline-box;
+	padding: 5%;
+	margin-top: 2%;
+	margin-left: 14%;
+	margin-bottom: 3%;
+}
+.articulo-1 p{
+	background-color: white;
+	padding: 5%;
+	margin-top: 2%;
+	margin-left: 14%;
+	margin-bottom: 3%;
+}
+/*---seccion blanco 1---*/
+.articulo-2{
+	display: flex;
+	justify-content: space-around;
+}
+.articulo-2 img{
+    padding: 12px;
+    width: 54%;
+    height: 403px;
+    background-color: #03A9F4;
+}
+.articulo-2 .informacion_nosotros{
+	max-width: 30%;
+}
+.informacion_nosotros h2{
+	background-color:  #03A9F4;
+	margin-bottom: 5%;
+	padding: 5px;
+}
+.informacion_nosotros p{
+	background-color:  #03A9F4;
+	padding: 12px;
+}
+/*---seccion azul 2---*/
+.articulo-3{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	text-align: center;
+}
+.articulo-3 h2{
+	background-color: white;
+	padding: 3%;
+	margin-bottom: 2%;
+}
+.articulo-3 .art3_contenido{
+	display: flex;
+	justify-content:space-around;
+}
+.articulo-3 p{
+	text-align: justify;
+	background-color: white;
+	padding: 5%;
+	max-width: 50%;
+}
+.articulo-3 .lista_servicios{
+	width: 25%;
+}
+.articulo-3 h3{
+	background-color: white;
+	padding: 5%;
+	margin-bottom: 16%;
+}
+.articulo-3 ul{
+	background-color: white;
+}
+.articulo-3 ul li{
+	border: 1px solid black;
+	padding: 8%;
+	display: block;
+}
+/*---seccion blanco 2---*/
+.articulo-4{
+	display: flex;
+	flex-direction: column;
+}
+.articulo-4 h2{
+	text-align: center;
+	background-color: #03A9F4;
+	padding: 2%;
+	margin-bottom: 2%;
+}
+.articulo-4 .grupo_trabajos{
+	display: flex;
+	justify-content: space-between;
+}
+.articulo-4 .grupo_trabajos div{
+	text-align: center;
+	width: 22%;
+	background-color: #03A9F4;
+}
+.grupo_trabajos p{
+	border-top: 1px solid black;
+	text-align: left;
+}
+.articulo-4 .recomendacion{
+	padding: 1%;
+	margin-top: 2%;
+	background-color: #03A9F4;
+	align-self: center;
+}
+/*---seccion azul 3---*/
+.articulo-5{
+	display: flex;
+	flex-direction: column;
+}
+.articulo-5 h2{
+	background-color: white;
+	padding: 3%;
+	text-align: center;
+}
+.articulo-5 form{
+	margin-top: 2%;
+	padding: 3% 0 3% 7%;
+	background-color: white;
+
+}
+/*---seccion footer---*/
+section.inicio-fin article.pie_pagina{
+	justify-content: center;
+}
+.pie_pagina h2{
+	color: white;
 }
