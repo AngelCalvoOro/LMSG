@@ -1,5 +1,6 @@
-﻿body{
+body{
     background-color: black;
+    margin: 0;
 }
 #link_principal{
     z-index: 3;
@@ -18,10 +19,9 @@
     width: 100%;
 }
 #links{
+	right: 1%;
     z-index: 2;
     margin-top: 1%;
-    margin-right: 3%;
-    margin-left: 72%;
     position: absolute;
 }
 #logo_inicial{
