@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+}
+.cuerpo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background-color: #eae8e8;
+}
+.contenido{
+	padding: 1%;
+	width: 20%;
+	background-color: #c3c3c3;
+}
+h5{
+	margin-top: 0;
+}
+p{
+	margin-bottom: 0;
+}

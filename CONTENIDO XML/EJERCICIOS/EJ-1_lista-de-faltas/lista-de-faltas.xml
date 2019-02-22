@@ -1,0 +1,67 @@
+<lista-faltas>
+	<asignatura tipo="matematicas">
+		<clase numero="2A">
+			<alumno>Ibon Fernández</alumno>
+			<fecha>
+				<dia>12</dia>
+				<mes>12</mes>
+				<año>10</año>
+			</fecha>
+			<hora>12:00</hora>
+			<alumno>Elisa Ruiz</alumno>
+			<fecha>
+				<dia>18</dia>
+				<mes>12</mes>
+				<año>10</año>
+			</fecha>
+			<hora>13:00</hora>
+		</clase>
+		<clase numero="2B">
+			<alumno>Maite Elkorobarrutia</alumno>
+			<fecha>
+				<dia>15</dia>
+				<mes>12</mes>
+				<año>10</año>
+			</fecha>
+			<hora>14:00</hora>
+		</clase>
+		<clase numero="3A">
+			<alumno>Miren Luarizaristi</alumno>
+			<fecha>17/12/10</fecha>
+		</clase>
+	</asignatura>
+	<asignatura tipo="informatica">
+		<clase numero="2A">
+			<alumno>Jose Alonso</alumno>
+			<fecha>
+				<dia>12</dia>
+				<mes>12</mes>
+				<año>10</año>
+			</fecha>
+			<hora>12:00</hora>
+			<alumno>Gorka Ruiz</alumno>
+			<fecha>
+				<dia>18</dia>
+				<mes>12</mes>
+				<año>10</año>
+			</fecha>
+			<hora>11:00</hora>
+		</clase>
+		<clase numero="2A">
+			<alumno>Jokin via</alumno>
+			<fecha>
+				<dia>13</dia>
+				<mes>12</mes>
+				<año>10</año>
+			</fecha>
+			<hora>09:00</hora>
+			<alumno>Amaia Jaso</alumno>
+			<fecha>
+				<dia>15</dia>
+				<mes>12</mes>
+				<año>10</año>
+			</fecha>
+			<hora>10:00</hora>
+		</clase>
+	</asignatura>
+</lista-faltas>

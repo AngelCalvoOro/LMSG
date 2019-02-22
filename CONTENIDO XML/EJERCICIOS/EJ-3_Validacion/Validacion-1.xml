@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<persona> 
+  <nombre>Ion</nombre>
+  <DNI>12784259L</DNI>
+</persona>
+<persona>
+  <nombre>Miren</nombre>
+  <DNI>51243021P</DNI> 
+</persona>
+<!--esta bien?-->

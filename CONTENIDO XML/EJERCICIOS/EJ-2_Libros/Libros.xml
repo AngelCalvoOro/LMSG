@@ -1,0 +1,32 @@
+<lista-libros>
+	<libro numero="1">
+		<imagen>/imagen</imagen>
+		<nombre>Dilintxo.Maitagarrien sekretua (klasikoak (aizkorri))</nombre>
+		<escritor>Walt Disney Company</escritor>
+		<escritor>hitzurun</escritor>
+		<escritor>gillenea mujika idoia</escritor>
+		<fecha-creado>
+			<dia>6</dia>
+			<mes>noviembre</mes>
+			<año>2012</año>
+		</fecha-creado>
+		<costo>13.06</costo>
+		<tipo-tapa>Tapa blanda</tipo-tapa>
+		<stock>1</stock>
+		<nuevas-oferta>3</nuevas-oferta>
+	</libro>
+	<libro numero="2">
+		<imagen>/imagen</imagen>
+		<nombre>bertan goxo (ateko bandan)</nombre>
+		<escritor>karlos linazasoro izagirre</escritor>
+		<fecha-creado>
+			<dia>9</dia>
+			<mes>noviembre</mes>
+			<año>2012</año>
+		</fecha-creado>
+		<costo></costo>
+		<tipo-tapa>Tapa blanda</tipo-tapa>
+		<stock>4</stock>
+		<nuevas-oferta>2</nuevas-oferta>
+	</libro>
+</lista-libros>

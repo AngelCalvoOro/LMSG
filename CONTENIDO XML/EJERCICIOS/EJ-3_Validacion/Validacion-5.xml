@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amigos>
+ 	<amigo direccion="Avenida Gasteiz"> Joseba Oribe</amigo>
+ 	<amigo direccion="Gran Via"> Leire Aguirre</amigo> 
+</amigos>
+<!--esta mal
+	la respuesta correcta seria la siguiente
+
+	<amigos>
+ 		<amigo direccion="Avenida Gasteiz"> Joseba Oribe</amigo>
+ 		<amigo direccion="Gran Via"> Leire Aguirre</amigo> 
+	</amigos>
+-->
+SIN TERMINAR

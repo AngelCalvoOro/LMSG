@@ -1,0 +1,6 @@
+<coche>
+  <marca>Peugeot</marca> 
+	<modelo>308</modelo>
+</coche> 
+<!--esta mal? 
+	el modelo se le pondria al mismo nivel que la marca-->
