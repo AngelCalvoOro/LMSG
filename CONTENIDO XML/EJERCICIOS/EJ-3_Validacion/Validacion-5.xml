@@ -5,10 +5,16 @@
 </amigos>
 <!--esta mal
 	la respuesta correcta seria la siguiente
-
+	
+	<?xml version="1.0" encoding="UTF-8"?>
 	<amigos>
- 		<amigo direccion="Avenida Gasteiz"> Joseba Oribe</amigo>
- 		<amigo direccion="Gran Via"> Leire Aguirre</amigo> 
+ 		<amigo>
+ 			<direccion>Avenida Gasteiz</direccion> 
+ 			<nombre>Joseba Oribe</nombre>
+ 		</amigo>
+ 		<amigo>
+ 			<direccion>Gran Via</direccion>
+ 			<nombre>Leire Aguirre</nombre>
+ 		</amigo>
 	</amigos>
 -->
-SIN TERMINAR

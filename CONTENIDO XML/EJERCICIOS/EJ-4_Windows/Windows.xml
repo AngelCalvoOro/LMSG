@@ -1,0 +1,30 @@
+<unidad nombre="a">
+	<directorio nombre="a1", fecha-de-modificacion="12/01/1985">
+		<fichero> 
+			<nombre>a1-1</nombre>
+			<fecha-de-modificacion>12/01/1985</fecha-de-modificacion>
+		</fichero>
+		<fichero> 
+			<nombre>a1-2</nombre>
+			<fecha-de-modificacion>12/01/1985</fecha-de-modificacion>
+		</fichero>
+		<fichero> 
+			<nombre>a1-3</nombre>
+			<fecha-de-modificacion>12/01/1985</fecha-de-modificacion>
+		</fichero>
+	</directorio>
+	<directorio nombre="a2", fecha-de-modificacion="12/01/1995">
+		<fichero> 
+			<nombre>a2-1</nombre>
+			<fecha-de-modificacion>12/01/1995</fecha-de-modificacion>
+		</fichero>
+	</directorio>
+</unidad>
+<unidad nombre="b">
+	<directorio nombre="b1", fecha-de-modificacion="12/01/1885">
+		<fichero> 
+			<nombre>b1-1</nombre>
+			<fecha-de-modificacion>12/01/1885</fecha-de-modificacion>
+		</fichero>
+	</directorio>
+</unidad>
