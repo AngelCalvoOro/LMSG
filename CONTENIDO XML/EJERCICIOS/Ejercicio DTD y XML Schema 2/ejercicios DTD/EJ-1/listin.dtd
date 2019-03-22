@@ -3,4 +3,9 @@
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT relacion (#EMPTY)>
-<!ATTLIST persona id 
+<!ATTLIST persona 
+			id ID #REQUIRED
+			sexo (hombre|mujer) #IMPLIED>
+<!ATTLIST relacion
+			amigo_de CDATA #IMPLIED
+			enemigo_de CDATA #IMPLIED>
