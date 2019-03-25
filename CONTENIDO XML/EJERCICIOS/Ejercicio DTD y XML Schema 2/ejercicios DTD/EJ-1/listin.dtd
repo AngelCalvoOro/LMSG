@@ -1,4 +1,4 @@
-<!ELEMENT listin (persona)+>
+<!ELEMENT listin (persona+)>
 <!ELEMENT persona (nombre,email*,relacion?)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
