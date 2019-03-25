@@ -2,16 +2,18 @@
 <!DOCTYPE agenda SYSTEM "agenda.dtd">
 <agenda>
 	<contactos>
-		<nombre>pepe</nombre>
-		<direccion>calle prueba</direccion>
-		<ciudad>Vitoria</ciudad>
-		<codigo_postal>05050</codigo_postal>
-		<numeros>
-			<telefono>667875245</telefono>
-			<fax>575895743</fax>
-		</numeros>
-		<email>ejercicio2@ejercicio2.com</email>
-		<web>http://ninguno.org</web>
-		<compañia>Industrias Ejercicio</compañia>
+		<contacto>
+			<nombre>pepe</nombre>
+			<direccion>calle prueba</direccion>
+			<ciudad>Vitoria</ciudad>
+			<codigo_postal>05050</codigo_postal>
+			<numeros>
+				<telefono>667875245</telefono>
+				<fax>575895743</fax>
+			</numeros>
+			<email>ejercicio2@ejercicio2.com</email>
+			<web>http://ninguno.org</web>
+			<compañia>Industrias Ejercicio</compañia>
+		</contacto>
 	</contactos>
 </agenda>
