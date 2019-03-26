@@ -1,0 +1,12 @@
+<!ELEMENT pedido (fecha,cuerpo_pedido,cliente)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT cuerpo_pedido(articulo*)>
+<!ELEMENT articulo(nombre,tipo,unidades,precio)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT unidades (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT cliente(nombre,direccion*)>
+<!ELEMENT direccion (nombre?,calle,numero,cp,localidad,provincia)>
+<!ATTLIST articulo id CDATA #REQUIRED>
+<!ATTLIST tipo (entrega|facturacion) #REQUIRED>

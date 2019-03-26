@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE periodico SYSTEM "periodico.dtd">
+<periodico>
+	<cabecera>
+		<nombre></nombre>
+		<fecha></fecha>
+		<lugar_de_edicion></lugar_de_edicion>
+		<numero_ejemplar></numero_ejemplar>
+		<precio></precio>
+	</cabecera>
+	<portada>
+		<titular></titular>
+		<noticia_del_dia></noticia_del_dia>
+		<lista_publicidad>
+			<publicidad></publicidad>
+			<publicidad></publicidad>
+		</lista_publicidad>
+	</portada>
+	<secciones>
+		<seccion tipo="Nacional">
+			<noticia>
+				<titulo></titulo>
+				<subtitulo></subtitulo>
+				<entradilla></entradilla>
+				<cuerpo></cuerpo>
+			</noticia>
+		</seccion>
+		<seccion tipo="Cultural">
+			<noticia>
+				<titulo></titulo>
+				<subtitulo></subtitulo>
+				<entradilla></entradilla>
+				<cuerpo></cuerpo>
+			</noticia>
+		</seccion>
+	</secciones>
+	<contraportada></contraportada>
+</periodico>
